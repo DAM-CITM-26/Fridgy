@@ -1,16 +1,23 @@
-# React + Vite
+# FRIDGY
+Fridgy és una aplicació per gestionar els aliments que tens a la nevera. Descobreix què tens, consulta quan caduquen els productes i organitza millor el teu menjar per evitar llençar aliments innecessàriament.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## EQUIP
+Íngrid Lara (@ingridgobierno)
+Aura Espí (@auraespi)
+Cristina Moles (@cristinamoless)
 
-Currently, two official plugins are available:
+## COM ARRANCA
+npm install
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ENLLAÇOS
+- Trello: https://trello.com/invite/b/6abbfa5e2736ca63ff9b0745/ATTI72cc6259ad18581a232a567229b6398486092310/dam-projecte 
+- Referencia: https://dam-citm-26.github.io/referencias/espies-de-veritat/#/ 
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## CARPETES
+src/components: components reutilitzables de l'aplicació.
+src/pages: una pantalla per fitxer.
+src/data: dades de prova.
+src/utils: funcions auxiliars.
+docs: model de dades i components de cada pantalla.
