@@ -1,7 +1,13 @@
-function App() {
+import Inicio from './pages/Inicio.jsx'
+export default function App() {
   return (
-    <h1>Fridgy</h1>
+    <>
+      <header className="cabecera">
+        <h1>Fridgy</h1>
+      </header>
+      <main>
+        <Inicio />
+      </main>
+    </>
   )
 }
-
-export default App
