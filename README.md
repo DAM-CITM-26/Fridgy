@@ -1,4 +1,4 @@
-# FRIDGY
+# FRIDGY · VERSION 1
 Fridgy és una aplicació per gestionar els aliments que tens a la nevera. Descobreix què tens, consulta quan caduquen els productes i organitza millor el teu menjar per evitar llençar aliments innecessàriament.
 
 ## EQUIP
