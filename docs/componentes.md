@@ -12,5 +12,5 @@
 | cuantosCaducanPronto(productos, hoy) | utils/logica.js                    | Lógica    |
 | ordenarPorCaducidad(productos)       | utils/logica.js                    | Lógica    |
 | Datos de js/datos.js                 | data/datos.js                      | Datos     |
-
+| Barra de navegación (Sprint 2) | components/MenuInferior.jsx | Organismo |
 
