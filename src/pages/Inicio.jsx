@@ -15,7 +15,7 @@ import {
 export default function Inicio() {
   const [productos, setProductos] = useState(PRODUCTOS);
 
-  const hoy = fechaHoy();
+  const hoy = fechaHoy(new Date());
 
   function agregarProducto(producto) {
     setProductos((anteriores) =>
