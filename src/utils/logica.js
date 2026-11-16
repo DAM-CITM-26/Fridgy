@@ -1,12 +1,11 @@
-
 export function fechaHoy() {
   const fecha = new Date();
 
-  const año = fecha.getFullYear();
+  const ano = fecha.getFullYear();
   const mes = String(fecha.getMonth() + 1).padStart(2, '0');
   const dia = String(fecha.getDate()).padStart(2, '0');
 
-  return `${año}-${mes}-${dia}`;
+  return `${ano}-${mes}-${dia}`;
 }
 
 export function diasHasta(fecha, hoy) {
