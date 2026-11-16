@@ -364,3 +364,55 @@ h1, h2, h3 { font-family: var(--fuente-titulos); }
 .alcance-s1 { border-color: #2E8F66; }
 .alcance-s2 { border-color: #6D5BD0; }
 .alcance-s3 { border-color: #C4791F; }
+
+
+/* MENÚ INFERIOR - FRIDGY */
+
+.fridgy-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #ffffff;
+  border-top: 1px solid #e5ddd8;
+  z-index: 100;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.fridgy-menu-opcion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 15px 8px;
+  background: transparent;
+  border: none;
+  color: #77716c;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.fridgy-menu-icono {
+  font-size: 27px;
+  line-height: 1.2;
+}
+
+.fridgy-menu-opcion.activa {
+  color: #32965D;
+  font-weight: 700;
+}
+
+.fridgy-menu-opcion:disabled {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.fridgy-contenido {
+  padding-bottom: 110px;
+}
+
