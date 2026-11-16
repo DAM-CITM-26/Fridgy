@@ -1,34 +1,31 @@
-
 export default function MenuInferior() {
   return (
-    <nav className="fridgy-menu" aria-label="Menú principal">
+    <nav className="pestanas" aria-label="Menú principal">
       <button
         type="button"
-        className="fridgy-menu-opcion activa"
+        className="activa"
         aria-current="page"
       >
-        <span className="fridgy-menu-icono">🧊</span>
-        <span>Mi nevera</span>
+        <span>🧊</span>
+        Mi nevera
       </button>
 
       <button
         type="button"
-        className="fridgy-menu-opcion"
         disabled
         title="Disponible en el Sprint 2"
       >
-        <span className="fridgy-menu-icono">🍳</span>
-        <span>Recetas</span>
+        <span>🍳</span>
+        Recetas
       </button>
 
       <button
         type="button"
-        className="fridgy-menu-opcion"
         disabled
         title="Disponible en el Sprint 3"
       >
-        <span className="fridgy-menu-icono">🛒</span>
-        <span>Compra</span>
+        <span>🛒</span>
+        Compra
       </button>
     </nav>
   );
