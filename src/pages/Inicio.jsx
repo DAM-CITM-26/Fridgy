@@ -1,3 +1,8 @@
-export default function Inicio() {
-  return <p>Aquí irá la pantalla principal.</p>
+
+import { useState } from 'react';
+import { PRODUCTOS } from './data/datos.js';
+
+function App() {
+  const [productos, setProductos] = useState(PRODUCTOS);
 }
+
