@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 
-import { PRODUCTOS } from '../data/datos.js';
+import { PRODUCTOS } from '../data/datos.json';
 
 import ListaProductos from '../components/ListaProductos.jsx';
 import FormularioProducto from '../components/FormularioProducto.jsx';
