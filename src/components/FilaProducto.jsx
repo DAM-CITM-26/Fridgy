@@ -1,11 +1,6 @@
 
 import EtiquetaCaducidad from './EtiquetaCaducidad.jsx';
-import MarcaSprint from './MarcaSprint.jsx';
-
-import {
-  fechaCorta,
-  diasHasta
-} from '../utils/logica.js';
+import { fechaCorta, diasHasta } from '../utils/logica.js';
 
 export default function FilaProducto({ producto, hoy }) {
   return (
@@ -32,16 +27,14 @@ export default function FilaProducto({ producto, hoy }) {
       />
 
       <button
-        className="btn-icono"
         type="button"
+        className="btn-icono"
         disabled
         title="Disponible en el Sprint 3"
         aria-label={`Quitar ${producto.nombre} (Sprint 3)`}
       >
         🗑️
       </button>
-
-      <MarcaSprint sprint={3} />
     </li>
   );
 }
