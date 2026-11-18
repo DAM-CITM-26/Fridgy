@@ -1,5 +1,6 @@
 | En la referencia                     | En React                           | Nivel     |
 |--------------------------------------|------------------------------------|-----------|
+| MarcaSprint({ sprint })              | components/MarcaSprint.jsx         | Átomo     |
 | Vacio({ icono, texto })              | components/Vacio.jsx               | Molécula  |
 | FilaProducto({ producto, hoy })      | components/FilaProducto.jsx        | Molécula  |
 | ListaProductos({ productos, hoy })   | components/ListaProductos.jsx      | Organismo |
