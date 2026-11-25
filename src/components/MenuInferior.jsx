@@ -1,3 +1,6 @@
+import nevera from '../images/nevera.png';
+import recetas from '../images/recetas.png';
+import calendario from '../images/calendario.png';
 export default function MenuInferior() {
   return (
     <nav className="pestanas" aria-label="Menú principal">
@@ -6,8 +9,7 @@ export default function MenuInferior() {
         className="activa"
         aria-current="page"
       >
-        <span>🧊</span>
-        Mi nevera
+        <span> <img src={nevera} alt="logotip" style={{width: '30px', objectFit:'cover'}}/></span>
       </button>
 
       <button
@@ -15,8 +17,7 @@ export default function MenuInferior() {
         disabled
         title="Disponible en el Sprint 2"
       >
-        <span>🍳</span>
-        Recetas
+        <span> <img src={recetas} alt="logotip" style={{width: '30px', objectFit:'cover'}}/></span>
       </button>
 
       <button
@@ -24,8 +25,7 @@ export default function MenuInferior() {
         disabled
         title="Disponible en el Sprint 3"
       >
-        <span>🛒</span>
-        Compra
+        <span> <img src={calendario} alt="logotip" style={{width: '30px', objectFit:'cover'}}/></span>
       </button>
     </nav>
   );
